@@ -1,0 +1,23 @@
+{
+  "name": "clidictionary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tryout"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "dict": "./index.js"
+  },
+  "dependencies": {
+    "better-console": "^0.2.4",
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "console.table": "^0.7.0",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.7.4",
+    "unirest": "^0.5.1"
+  }
+}
